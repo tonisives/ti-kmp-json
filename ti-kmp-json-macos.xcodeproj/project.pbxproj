@@ -1,0 +1,590 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C381F11B2686D563007B2E94 /* ti_kmp_json_macosApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = C381F11A2686D563007B2E94 /* ti_kmp_json_macosApp.swift */; };
+		C381F11D2686D563007B2E94 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C381F11C2686D563007B2E94 /* ContentView.swift */; };
+		C381F11F2686D564007B2E94 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C381F11E2686D564007B2E94 /* Assets.xcassets */; };
+		C381F1222686D564007B2E94 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C381F1212686D564007B2E94 /* Preview Assets.xcassets */; };
+		C381F12E2686D564007B2E94 /* ti_kmp_json_macosTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C381F12D2686D564007B2E94 /* ti_kmp_json_macosTests.swift */; };
+		C381F1392686D564007B2E94 /* ti_kmp_json_macosUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C381F1382686D564007B2E94 /* ti_kmp_json_macosUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C381F12A2686D564007B2E94 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C381F10F2686D563007B2E94 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C381F1162686D563007B2E94;
+			remoteInfo = "ti-kmp-json-macos";
+		};
+		C381F1352686D564007B2E94 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C381F10F2686D563007B2E94 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C381F1162686D563007B2E94;
+			remoteInfo = "ti-kmp-json-macos";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		C381F1172686D563007B2E94 /* ti-kmp-json-macos.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "ti-kmp-json-macos.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C381F11A2686D563007B2E94 /* ti_kmp_json_macosApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ti_kmp_json_macosApp.swift; sourceTree = "<group>"; };
+		C381F11C2686D563007B2E94 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		C381F11E2686D564007B2E94 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C381F1212686D564007B2E94 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		C381F1232686D564007B2E94 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C381F1242686D564007B2E94 /* ti_kmp_json_macos.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = ti_kmp_json_macos.entitlements; sourceTree = "<group>"; };
+		C381F1292686D564007B2E94 /* ti-kmp-json-macosTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "ti-kmp-json-macosTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C381F12D2686D564007B2E94 /* ti_kmp_json_macosTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ti_kmp_json_macosTests.swift; sourceTree = "<group>"; };
+		C381F12F2686D564007B2E94 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C381F1342686D564007B2E94 /* ti-kmp-json-macosUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "ti-kmp-json-macosUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C381F1382686D564007B2E94 /* ti_kmp_json_macosUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ti_kmp_json_macosUITests.swift; sourceTree = "<group>"; };
+		C381F13A2686D565007B2E94 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C381F1142686D563007B2E94 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C381F1262686D564007B2E94 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C381F1312686D564007B2E94 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C381F10E2686D563007B2E94 = {
+			isa = PBXGroup;
+			children = (
+				C381F1192686D563007B2E94 /* ti-kmp-json-macos */,
+				C381F12C2686D564007B2E94 /* ti-kmp-json-macosTests */,
+				C381F1372686D564007B2E94 /* ti-kmp-json-macosUITests */,
+				C381F1182686D563007B2E94 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C381F1182686D563007B2E94 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C381F1172686D563007B2E94 /* ti-kmp-json-macos.app */,
+				C381F1292686D564007B2E94 /* ti-kmp-json-macosTests.xctest */,
+				C381F1342686D564007B2E94 /* ti-kmp-json-macosUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C381F1192686D563007B2E94 /* ti-kmp-json-macos */ = {
+			isa = PBXGroup;
+			children = (
+				C381F11A2686D563007B2E94 /* ti_kmp_json_macosApp.swift */,
+				C381F11C2686D563007B2E94 /* ContentView.swift */,
+				C381F11E2686D564007B2E94 /* Assets.xcassets */,
+				C381F1232686D564007B2E94 /* Info.plist */,
+				C381F1242686D564007B2E94 /* ti_kmp_json_macos.entitlements */,
+				C381F1202686D564007B2E94 /* Preview Content */,
+			);
+			path = "ti-kmp-json-macos";
+			sourceTree = "<group>";
+		};
+		C381F1202686D564007B2E94 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				C381F1212686D564007B2E94 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		C381F12C2686D564007B2E94 /* ti-kmp-json-macosTests */ = {
+			isa = PBXGroup;
+			children = (
+				C381F12D2686D564007B2E94 /* ti_kmp_json_macosTests.swift */,
+				C381F12F2686D564007B2E94 /* Info.plist */,
+			);
+			path = "ti-kmp-json-macosTests";
+			sourceTree = "<group>";
+		};
+		C381F1372686D564007B2E94 /* ti-kmp-json-macosUITests */ = {
+			isa = PBXGroup;
+			children = (
+				C381F1382686D564007B2E94 /* ti_kmp_json_macosUITests.swift */,
+				C381F13A2686D565007B2E94 /* Info.plist */,
+			);
+			path = "ti-kmp-json-macosUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C381F1162686D563007B2E94 /* ti-kmp-json-macos */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C381F13D2686D565007B2E94 /* Build configuration list for PBXNativeTarget "ti-kmp-json-macos" */;
+			buildPhases = (
+				C381F1132686D563007B2E94 /* Sources */,
+				C381F1142686D563007B2E94 /* Frameworks */,
+				C381F1152686D563007B2E94 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "ti-kmp-json-macos";
+			productName = "ti-kmp-json-macos";
+			productReference = C381F1172686D563007B2E94 /* ti-kmp-json-macos.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C381F1282686D564007B2E94 /* ti-kmp-json-macosTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C381F1402686D565007B2E94 /* Build configuration list for PBXNativeTarget "ti-kmp-json-macosTests" */;
+			buildPhases = (
+				C381F1252686D564007B2E94 /* Sources */,
+				C381F1262686D564007B2E94 /* Frameworks */,
+				C381F1272686D564007B2E94 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C381F12B2686D564007B2E94 /* PBXTargetDependency */,
+			);
+			name = "ti-kmp-json-macosTests";
+			productName = "ti-kmp-json-macosTests";
+			productReference = C381F1292686D564007B2E94 /* ti-kmp-json-macosTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		C381F1332686D564007B2E94 /* ti-kmp-json-macosUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C381F1432686D565007B2E94 /* Build configuration list for PBXNativeTarget "ti-kmp-json-macosUITests" */;
+			buildPhases = (
+				C381F1302686D564007B2E94 /* Sources */,
+				C381F1312686D564007B2E94 /* Frameworks */,
+				C381F1322686D564007B2E94 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C381F1362686D564007B2E94 /* PBXTargetDependency */,
+			);
+			name = "ti-kmp-json-macosUITests";
+			productName = "ti-kmp-json-macosUITests";
+			productReference = C381F1342686D564007B2E94 /* ti-kmp-json-macosUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C381F10F2686D563007B2E94 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1250;
+				LastUpgradeCheck = 1250;
+				TargetAttributes = {
+					C381F1162686D563007B2E94 = {
+						CreatedOnToolsVersion = 12.5.1;
+					};
+					C381F1282686D564007B2E94 = {
+						CreatedOnToolsVersion = 12.5.1;
+						TestTargetID = C381F1162686D563007B2E94;
+					};
+					C381F1332686D564007B2E94 = {
+						CreatedOnToolsVersion = 12.5.1;
+						TestTargetID = C381F1162686D563007B2E94;
+					};
+				};
+			};
+			buildConfigurationList = C381F1122686D563007B2E94 /* Build configuration list for PBXProject "ti-kmp-json-macos" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C381F10E2686D563007B2E94;
+			productRefGroup = C381F1182686D563007B2E94 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C381F1162686D563007B2E94 /* ti-kmp-json-macos */,
+				C381F1282686D564007B2E94 /* ti-kmp-json-macosTests */,
+				C381F1332686D564007B2E94 /* ti-kmp-json-macosUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C381F1152686D563007B2E94 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C381F1222686D564007B2E94 /* Preview Assets.xcassets in Resources */,
+				C381F11F2686D564007B2E94 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C381F1272686D564007B2E94 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C381F1322686D564007B2E94 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C381F1132686D563007B2E94 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C381F11D2686D563007B2E94 /* ContentView.swift in Sources */,
+				C381F11B2686D563007B2E94 /* ti_kmp_json_macosApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C381F1252686D564007B2E94 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C381F12E2686D564007B2E94 /* ti_kmp_json_macosTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C381F1302686D564007B2E94 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C381F1392686D564007B2E94 /* ti_kmp_json_macosUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C381F12B2686D564007B2E94 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C381F1162686D563007B2E94 /* ti-kmp-json-macos */;
+			targetProxy = C381F12A2686D564007B2E94 /* PBXContainerItemProxy */;
+		};
+		C381F1362686D564007B2E94 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C381F1162686D563007B2E94 /* ti-kmp-json-macos */;
+			targetProxy = C381F1352686D564007B2E94 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		C381F13B2686D565007B2E94 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		C381F13C2686D565007B2E94 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		C381F13E2686D565007B2E94 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "ti-kmp-json-macos/ti_kmp_json_macos.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_ASSET_PATHS = "\"ti-kmp-json-macos/Preview Content\"";
+				DEVELOPMENT_TEAM = S73DD99TM7;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "ti-kmp-json-macos/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 11.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.tonisives.ti-kmp-json-macos";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		C381F13F2686D565007B2E94 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "ti-kmp-json-macos/ti_kmp_json_macos.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_ASSET_PATHS = "\"ti-kmp-json-macos/Preview Content\"";
+				DEVELOPMENT_TEAM = S73DD99TM7;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "ti-kmp-json-macos/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 11.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.tonisives.ti-kmp-json-macos";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		C381F1412686D565007B2E94 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = S73DD99TM7;
+				INFOPLIST_FILE = "ti-kmp-json-macosTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 11.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.tonisives.ti-kmp-json-macosTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ti-kmp-json-macos.app/Contents/MacOS/ti-kmp-json-macos";
+			};
+			name = Debug;
+		};
+		C381F1422686D565007B2E94 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = S73DD99TM7;
+				INFOPLIST_FILE = "ti-kmp-json-macosTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 11.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.tonisives.ti-kmp-json-macosTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ti-kmp-json-macos.app/Contents/MacOS/ti-kmp-json-macos";
+			};
+			name = Release;
+		};
+		C381F1442686D565007B2E94 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = S73DD99TM7;
+				INFOPLIST_FILE = "ti-kmp-json-macosUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.tonisives.ti-kmp-json-macosUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = "ti-kmp-json-macos";
+			};
+			name = Debug;
+		};
+		C381F1452686D565007B2E94 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = S73DD99TM7;
+				INFOPLIST_FILE = "ti-kmp-json-macosUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.tonisives.ti-kmp-json-macosUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = "ti-kmp-json-macos";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C381F1122686D563007B2E94 /* Build configuration list for PBXProject "ti-kmp-json-macos" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C381F13B2686D565007B2E94 /* Debug */,
+				C381F13C2686D565007B2E94 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C381F13D2686D565007B2E94 /* Build configuration list for PBXNativeTarget "ti-kmp-json-macos" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C381F13E2686D565007B2E94 /* Debug */,
+				C381F13F2686D565007B2E94 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C381F1402686D565007B2E94 /* Build configuration list for PBXNativeTarget "ti-kmp-json-macosTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C381F1412686D565007B2E94 /* Debug */,
+				C381F1422686D565007B2E94 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C381F1432686D565007B2E94 /* Build configuration list for PBXNativeTarget "ti-kmp-json-macosUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C381F1442686D565007B2E94 /* Debug */,
+				C381F1452686D565007B2E94 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C381F10F2686D563007B2E94 /* Project object */;
+}
