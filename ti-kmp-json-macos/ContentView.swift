@@ -6,11 +6,16 @@
 //
 
 import SwiftUI
+import KmpJsonKit
 
 struct ContentView: View {
+    let kmpJson = KmpJson()
+
     var body: some View {
-        Text("Hello, world!")
-            .padding()
+        VStack {
+            Text("Hello, world!")
+                .padding()
+        }.frame(width: 300, height: 200)
     }
 }
 

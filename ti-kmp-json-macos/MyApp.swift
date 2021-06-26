@@ -8,7 +8,7 @@
 import SwiftUI
 
 @main
-struct ti_kmp_json_macosApp: App {
+struct MyApp: App {
     var body: some Scene {
         WindowGroup {
             ContentView()

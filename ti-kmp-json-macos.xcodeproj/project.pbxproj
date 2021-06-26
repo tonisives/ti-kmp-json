@@ -7,12 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		C381F11B2686D563007B2E94 /* ti_kmp_json_macosApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = C381F11A2686D563007B2E94 /* ti_kmp_json_macosApp.swift */; };
+		C381F11B2686D563007B2E94 /* MyApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = C381F11A2686D563007B2E94 /* MyApp.swift */; };
 		C381F11D2686D563007B2E94 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C381F11C2686D563007B2E94 /* ContentView.swift */; };
 		C381F11F2686D564007B2E94 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C381F11E2686D564007B2E94 /* Assets.xcassets */; };
 		C381F1222686D564007B2E94 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C381F1212686D564007B2E94 /* Preview Assets.xcassets */; };
 		C381F12E2686D564007B2E94 /* ti_kmp_json_macosTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C381F12D2686D564007B2E94 /* ti_kmp_json_macosTests.swift */; };
 		C381F1392686D564007B2E94 /* ti_kmp_json_macosUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C381F1382686D564007B2E94 /* ti_kmp_json_macosUITests.swift */; };
+		C381F14E268718E2007B2E94 /* KmpJsonKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C381F1482687188E007B2E94 /* KmpJsonKit.framework */; };
+		C381F14F268718E2007B2E94 /* KmpJsonKit.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = C381F1482687188E007B2E94 /* KmpJsonKit.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -32,9 +34,23 @@
 		};
 /* End PBXContainerItemProxy section */
 
+/* Begin PBXCopyFilesBuildPhase section */
+		C381F150268718E2007B2E94 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				C381F14F268718E2007B2E94 /* KmpJsonKit.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
 		C381F1172686D563007B2E94 /* ti-kmp-json-macos.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "ti-kmp-json-macos.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		C381F11A2686D563007B2E94 /* ti_kmp_json_macosApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ti_kmp_json_macosApp.swift; sourceTree = "<group>"; };
+		C381F11A2686D563007B2E94 /* MyApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyApp.swift; sourceTree = "<group>"; };
 		C381F11C2686D563007B2E94 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		C381F11E2686D564007B2E94 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C381F1212686D564007B2E94 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
@@ -46,6 +62,7 @@
 		C381F1342686D564007B2E94 /* ti-kmp-json-macosUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "ti-kmp-json-macosUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C381F1382686D564007B2E94 /* ti_kmp_json_macosUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ti_kmp_json_macosUITests.swift; sourceTree = "<group>"; };
 		C381F13A2686D565007B2E94 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C381F1482687188E007B2E94 /* KmpJsonKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = KmpJsonKit.framework; path = "kmp-json-kit/build/bin/native/debugFramework/KmpJsonKit.framework"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +70,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C381F14E268718E2007B2E94 /* KmpJsonKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -80,6 +98,7 @@
 				C381F12C2686D564007B2E94 /* ti-kmp-json-macosTests */,
 				C381F1372686D564007B2E94 /* ti-kmp-json-macosUITests */,
 				C381F1182686D563007B2E94 /* Products */,
+				C381F1472687188E007B2E94 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -96,7 +115,7 @@
 		C381F1192686D563007B2E94 /* ti-kmp-json-macos */ = {
 			isa = PBXGroup;
 			children = (
-				C381F11A2686D563007B2E94 /* ti_kmp_json_macosApp.swift */,
+				C381F11A2686D563007B2E94 /* MyApp.swift */,
 				C381F11C2686D563007B2E94 /* ContentView.swift */,
 				C381F11E2686D564007B2E94 /* Assets.xcassets */,
 				C381F1232686D564007B2E94 /* Info.plist */,
@@ -132,6 +151,14 @@
 			path = "ti-kmp-json-macosUITests";
 			sourceTree = "<group>";
 		};
+		C381F1472687188E007B2E94 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C381F1482687188E007B2E94 /* KmpJsonKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -139,9 +166,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = C381F13D2686D565007B2E94 /* Build configuration list for PBXNativeTarget "ti-kmp-json-macos" */;
 			buildPhases = (
+				C381F1462687127B007B2E94 /* ShellScript */,
 				C381F1132686D563007B2E94 /* Sources */,
 				C381F1142686D563007B2E94 /* Frameworks */,
 				C381F1152686D563007B2E94 /* Resources */,
+				C381F150268718E2007B2E94 /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
@@ -256,13 +285,33 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		C381F1462687127B007B2E94 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "cd kmp-json-kit\n./gradlew linkDebugFrameworkNative\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		C381F1132686D563007B2E94 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				C381F11D2686D563007B2E94 /* ContentView.swift in Sources */,
-				C381F11B2686D563007B2E94 /* ti_kmp_json_macosApp.swift in Sources */,
+				C381F11B2686D563007B2E94 /* MyApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -425,6 +474,10 @@
 				DEVELOPMENT_TEAM = S73DD99TM7;
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/kmp-json-kit/build/bin/native/debugFramework",
+				);
 				INFOPLIST_FILE = "ti-kmp-json-macos/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -449,6 +502,10 @@
 				DEVELOPMENT_TEAM = S73DD99TM7;
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/kmp-json-kit/build/bin/native/debugFramework",
+				);
 				INFOPLIST_FILE = "ti-kmp-json-macos/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",

@@ -1,0 +1,37 @@
+plugins {
+    id 'org.jetbrains.kotlin.multiplatform' version '1.5.20'
+    id 'org.jetbrains.kotlin.plugin.serialization' version '1.5.20'
+}
+
+group = 'com.tonisives'
+version = '1.0-SNAPSHOT'
+
+repositories {
+    mavenCentral()
+}
+
+kotlin {
+    sourceSets {
+        nativeMain {
+            dependencies {
+                api "co.touchlab:kermit:0.1.9"
+                implementation "org.jetbrains.kotlinx:kotlinx-serialization-json:1.2.1"
+                implementation "io.insert-koin:koin-core:3.0.2"
+            }
+        }
+        nativeTest {
+            dependencies {
+                implementation "io.insert-koin:koin-test:3.0.2"
+                implementation "org.junit.jupiter:junit-jupiter:5.4.2"
+            }
+        }
+    }
+
+    macosX64("native") {
+        binaries {
+            framework {
+                baseName = "KmpJsonKit"
+            }
+        }
+    }
+}
