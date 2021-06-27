@@ -9,7 +9,7 @@ import SwiftUI
 import KmpJsonKit
 
 struct ContentView: View {
-    let kmpJson = KmpJson()
+    let kmpJson = KmpJsonKit()
 
     var body: some View {
         VStack {
