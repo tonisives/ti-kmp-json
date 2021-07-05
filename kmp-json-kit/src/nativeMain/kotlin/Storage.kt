@@ -5,8 +5,8 @@ import platform.posix.*
  * Reading/writing to files
  *
  */
-open class Storage {
-    open fun readFile(absolutePath: String): String {
+class Storage : IStorage {
+    override fun readFile(absolutePath: String): String {
         val returnBuffer = StringBuilder()
 
         val file = fopen(absolutePath, "r")
@@ -29,7 +29,7 @@ open class Storage {
         return returnBuffer.toString()
     }
 
-    open fun writeFile(absolutePath: String, text: String) {
+    override fun writeFile(absolutePath: String, text: String) {
         val path = absolutePath
 
         val file = fopen(path, "w")
@@ -42,4 +42,9 @@ open class Storage {
             fclose(file)
         }
     }
+}
+
+interface IStorage {
+    fun readFile(absolutePath: String): String;
+    fun writeFile(absolutePath: String, text: String);
 }

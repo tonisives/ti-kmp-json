@@ -13,10 +13,24 @@ class KmpJsonTest {
         assert(jsonMap.getStringValue("testTwoKey") == "testTwoValue")
     }
 
-    class StorageMock : Storage() {
+    class StorageMock : IStorage {
         override fun readFile(absolutePath: String): String {
             return testJson
         }
+
+        override fun writeFile(absolutePath: String, text: String) {
+            // nothing
+        }
+    }
+}
+
+class StorageMock : IStorage {
+    override fun readFile(absolutePath: String): String {
+        return testJson
+    }
+
+    override fun writeFile(absolutePath: String, text: String) {
+        // nothing
     }
 }
 
